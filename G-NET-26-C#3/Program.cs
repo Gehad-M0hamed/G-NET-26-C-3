@@ -133,6 +133,50 @@ namespace G_NET_26_C_3
             //** No,We Choose Ternary Operator when we have simple (single) condition to assign  value to a variable.
             #endregion
 
+            #region Question 5:
+            //string password;
+            //int attempts = 5;
+            //bool isValid;
+
+            //do
+            //{
+            //    attempts--;
+            //    Console.Write($"Attempt {attempts}/5 - Enter password: ");
+            //    password = Console.ReadLine();
+
+            //    bool hasUpper = false;
+            //    bool hasDigit = false;
+            //    bool hasSpace = false;
+            //    foreach (char c in password)
+            //    {
+            //        if (char.IsUpper(c)) hasUpper = true;
+            //        if (char.IsDigit(c)) hasDigit = true;
+            //        if (char.IsWhiteSpace(c)) hasSpace = true;
+            //    }
+            //    bool lengthValid = password.Length >= 8;
+            //    isValid = lengthValid && hasUpper && hasDigit && !hasSpace;
+
+            //    if (!isValid)
+            //    {
+            //        Console.WriteLine("Invalid password. Rules:");
+            //        if (!lengthValid) Console.WriteLine("- Minimum 8 characters");
+            //        if (!hasUpper) Console.WriteLine("- At least one uppercase letter");
+            //        if (!hasDigit) Console.WriteLine("- At least one digit");
+            //        if (hasSpace) Console.WriteLine("- No spaces allowed");
+            //        Console.WriteLine();
+            //    }
+            //    if (attempts >= 5 && !isValid)
+            //    {
+            //        Console.WriteLine("Account locked.");
+            //        return;
+            //    }
+            //}
+            //while (!isValid);
+            //{
+            //    Console.WriteLine("Password accepted!");
+            //}
+
+            #endregion
 
 
 
