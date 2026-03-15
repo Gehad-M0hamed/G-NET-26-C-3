@@ -120,6 +120,20 @@ namespace G_NET_26_C_3
 
             #endregion
 
+            #region Question 4:
+            //int temperature = 35;
+
+            //string weatherAdvice =
+            //    (temperature < 0) ? "Freezing! Stay indoors." :
+            //    (temperature < 15) ? "Cold. Wear a jacket." :
+            //    (temperature < 25) ? "Pleasant weather." :
+            //    (temperature < 35) ? "Warm. Stay hydrated." : "Hot! Avoid sun exposure.";
+
+            //Console.WriteLine(weatherAdvice);
+            //** No,We Choose Ternary Operator when we have simple (single) condition to assign  value to a variable.
+            #endregion
+
+
 
 
 
