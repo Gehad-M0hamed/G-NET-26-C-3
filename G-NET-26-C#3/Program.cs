@@ -178,10 +178,63 @@ namespace G_NET_26_C_3
 
             #endregion
 
+            #region Question 6:
+            //int[] scores = { 85, 42, 91, 67, 55, 78, 39, 88 ,72 ,95 ,60 ,48};
+
+            //// (a) Find and display all failing scores (below 50)
+            //Console.WriteLine(" Failing Scores below 50: ");
+            //foreach (int score in scores)
+            //{
+            //    if (score < 50)
+            //    {
+            //        Console.WriteLine(score);
+            //    }
+            //}
+
+            //// (b) Find the first score above 90 and stop (break)
+            //Console.WriteLine("\n First Score Above 90 :");
+            //foreach (int score in scores)
+            //{
+            //    if (score > 90)
+            //    {
+            //        Console.WriteLine($" {score}");
+            //        break; 
+            //    }
+            //}
+
+            //// (c) Average excluding scores below 40 (considered absent)
+            //Console.WriteLine("\n Class Average :");
+            //double sum = 0;
+            //int count = 0;
+            //foreach (int score in scores)
+            //{
+            //    if (score < 40) continue; 
+
+            //    sum += score;
+            //    count++;
+            //}
+            //double average = (count > 0) ? sum / count : 0;
+            //Console.WriteLine($"Average: {average}");
+
+            //// (d) Count how many students scored in each grade range:
+            //Console.WriteLine("\n Grades: ");
+            //int A = 0, B = 0, C = 0, D = 0, F = 0;
+            //foreach (int score in scores)
+            //{
+            //    if (score >= 90) A++;
+            //    else if (score >= 80) B++;
+            //    else if (score >= 70) C++;
+            //    else if (score >= 60) D++;
+            //    else F++;
+            //}
+            //Console.WriteLine($"A: {A}, B: {B}, C: {C}, D: {D}, F: {F}");
+        
+            #endregion
 
 
 
 
-        }
+
+    }
     }
 }
